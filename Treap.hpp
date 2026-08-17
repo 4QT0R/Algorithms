@@ -90,19 +90,19 @@ struct treap{
 	}
 };
 
-int main(){
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+// int main(){
+// 	ios_base::sync_with_stdio(0);
+// 	cin.tie(0);
 
-	treap drzewiec = treap();
-	drzewiec.insert(2);
-	drzewiec.print(drzewiec.head);
-	cout << '\n';
-	drzewiec.insert(5);
-	drzewiec.print(drzewiec.head);
-	cout << '\n';
-	drzewiec.insert(1);
-	drzewiec.print(drzewiec.head);
-	cout << '\n';
-	cout << drzewiec.loverbound(1) << '\n';
-}
+// 	treap drzewiec = treap();
+// 	drzewiec.insert(2);
+// 	drzewiec.print(drzewiec.head);
+// 	cout << '\n';
+// 	drzewiec.insert(5);
+// 	drzewiec.print(drzewiec.head);
+// 	cout << '\n';
+// 	drzewiec.insert(1);
+// 	drzewiec.print(drzewiec.head);
+// 	cout << '\n';
+// 	cout << drzewiec.loverbound(1) << '\n';
+// }

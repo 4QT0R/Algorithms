@@ -175,14 +175,14 @@ protected:
 	}
 };
 
-int main()
-{
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+// int main()
+// {
+// 	ios_base::sync_with_stdio(0);
+// 	cin.tie(0);
 
-	string s, pattern;
-	cin >> s >> pattern;
+// 	string s, pattern;
+// 	cin >> s >> pattern;
 
-	Suffix_automaton<26, 'a'> suf_automaton(s);
-	cout << suf_automaton.count_occurences(pattern) << '\n';
-}
+// 	Suffix_automaton<26, 'a'> suf_automaton(s);
+// 	cout << suf_automaton.count_occurences(pattern) << '\n';
+// }

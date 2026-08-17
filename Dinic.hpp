@@ -159,23 +159,23 @@ public:
 	}
 };
  
-int main () {
-	ios::sync_with_stdio(false);
-	cin.tie(0);
+// int main () {
+// 	ios::sync_with_stdio(false);
+// 	cin.tie(0);
 
-	int n, m;
-	cin >> n >> m;
+// 	int n, m;
+// 	cin >> n >> m;
 
-	GraphBuilder gb (1, n);
-	for (int i = 0; i < m; i++) {
-		int u, v;
-		ll capac;
-		cin >> u >> v >> capac;
+// 	GraphBuilder gb (1, n);
+// 	for (int i = 0; i < m; i++) {
+// 		int u, v;
+// 		ll capac;
+// 		cin >> u >> v >> capac;
 
-		gb.add_edge(u, v, capac);
-	}
+// 		gb.add_edge(u, v, capac);
+// 	}
 
-	auto mf = gb.build();
-	ll ans = mf.calc_max_flow();
-	cout << ans << '\n';
-}
+// 	auto mf = gb.build();
+// 	ll ans = mf.calc_max_flow();
+// 	cout << ans << '\n';
+// }

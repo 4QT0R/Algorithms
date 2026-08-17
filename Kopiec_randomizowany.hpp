@@ -45,26 +45,26 @@ struct heap{
 	}
 };
 
-int main(){
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+// int main(){
+// 	ios_base::sync_with_stdio(0);
+// 	cin.tie(0);
 
-	heap kopiec;
-	kopiec.head->val=0;
-	kopiec.push(1);
-	cout << kopiec.top() << endl;
-	kopiec.push(2);
-	cout << kopiec.top() << endl;
-	kopiec.push(3);
-	cout << kopiec.top() << endl;
-	kopiec.push(4);
-	cout << kopiec.top() << endl;
-	kopiec.pop();
-	cout << kopiec.top() << endl;
-	kopiec.pop();
-	cout << kopiec.top() << endl;
-	kopiec.pop();
-	cout << kopiec.top() << endl;
-	kopiec.pop();
-	cout << kopiec.top() << endl;
-}
+// 	heap kopiec;
+// 	kopiec.head->val=0;
+// 	kopiec.push(1);
+// 	cout << kopiec.top() << endl;
+// 	kopiec.push(2);
+// 	cout << kopiec.top() << endl;
+// 	kopiec.push(3);
+// 	cout << kopiec.top() << endl;
+// 	kopiec.push(4);
+// 	cout << kopiec.top() << endl;
+// 	kopiec.pop();
+// 	cout << kopiec.top() << endl;
+// 	kopiec.pop();
+// 	cout << kopiec.top() << endl;
+// 	kopiec.pop();
+// 	cout << kopiec.top() << endl;
+// 	kopiec.pop();
+// 	cout << kopiec.top() << endl;
+// }
